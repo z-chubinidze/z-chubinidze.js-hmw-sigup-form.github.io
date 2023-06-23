@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Karla-Regular';
+    src:url(Karla-Regular.ttf)
+}
+@media only screen and (max-width:1270px){
+    .suc-box {
+     width: 45% !important;
+     }
+     h1 {
+        font-size: 28px !important;
+    }
+ }
+@media only screen and (max-width:992px){
+    .suc-box {
+     width: 45% !important;
+     }
+     h1 {
+        font-size: 28px !important;
+    }
+ }
+ @media only screen and (max-width: 768px){
+    .suc-box {
+     width: 70% !important;
+     }
+     .container-fluid{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+ }
+ @media only screen and (max-width: 550px){
+    h1 {
+        font-size: 26px !important;
+    }
+
+ }
+@media only screen and  (max-width: 425px){
+    .container-fluid{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .main-box{
+        background-color: transparent !important;
+        border-radius: 0 !important;
+     }
+     input{
+        height: 40px !important;
+    }
+    h1 {
+        font-size: 24px !important;
+    }
+    .head-box {
+        margin-bottom: 22px !important;
+    }
+    .suc-box {
+        height: 60px;
+        width: 65% !important;
+    }
+    .success {
+        font-size: 12px !important;
+    }
+    .btn {
+        height: 50px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+    }
+}
+@media only screen and  (max-width: 320px){
+
+    h1 {
+        font-size: 18px !important;
+    }
+    .btn {
+        height: 50px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+    }
+    .account {
+        font-size: 13px !important;
+    }
+}
+
+
+body{
+    background-color: #A7D7C5;
+    height: 100vh;
+}
+.suc-box{
+    height:60px;
+    width: 30%;
+    background-color: lightgreen;
+    border:2px solid green;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.success{
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700
+}
+.main-box{
+   background-color: #F6FBF9;
+   border-radius: 32px;
+}
+h1{
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:36px;
+    font-weight: 700;
+    line-height: 46.8px;
+    color: #212B27;
+}
+.account{
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #32403B;
+}
+input{
+    height: 55px;
+    border: 1px solid #00000010;
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #32403B;
+}
+input::placeholder{
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #32403B;
+}
+.input-2{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.input-3{
+    margin-bottom: 22px;
+}
+.btn{
+    background-color: #84C7AE;
+    height: 59px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn:active{
+    background-color: #84C7AE !important;
+    color: #FFFFFF !important;
+}
+.btn:hover{
+    background-color: #84C7AE;
+    color: #FFFFFF;
+}
+.have-acco{
+    font-family:'Karla-Regular';
+    font-style: normal;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: #32403B;
+}
